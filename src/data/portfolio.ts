@@ -23,7 +23,14 @@ export const experience = [
       "Conducted audits to verify financial accuracy and resolve discrepancies",
       "Coordinated team workflows and provided day-to-day guidance to maintain consistent output quality",
     ] },
-  { title: "Virtual Assistant - Medical", sub: "Freelance — Tara AI Community", year: "Jan 2023 – Present", active: true, italic: false,
+  { title: "Medical Virtual Assistant", sub: "Confidential Healthcare Client", year: "2023 – Present (3 yrs)", active: true, italic: false,
+    bullets: [
+      "Managed patient scheduling and appointment setting for a healthcare practice",
+      "Processed medical billing and insurance claims, including follow-up on outstanding claims",
+      "Maintained and updated electronic health records (EHR) and patient data with accuracy and confidentiality",
+      "Handled patient communication and intake, including calls, emails, and intake forms",
+    ] },
+  { title: "Virtual Assistant", sub: "Freelance — Tara AI Community", year: "Jan 2023 – Present", active: false, italic: false,
     bullets: [
       "Provide remote administrative support, including scheduling, data entry, email management, and document preparation",
       "Manage client communications and ensure timely delivery of assigned tasks",

@@ -51,7 +51,7 @@ export const techStack: Record<string, string[]> = {
 
 export const techStackAll: Record<string, string[]> = {
   "Leadership & Operations": ["Team Leadership", "Time Management", "Multitasking", "Organizational Skills", "Adaptability", "Problem-Solving"],
-  "Finance & Admin": ["Billing & Invoicing", "Financial Auditing", "Administrative Support", "Data Entry", "Record-Keeping", "Email & Calendar Management"],
+  "Finance & Admin": ["Billing & Invoicing", "Financial Auditing", "Administrative Support", "Data Entry", "Record-Keeping", "Email & Calendar Management", "Medical"],
   Tools: ["Microsoft Excel", "Microsoft Word"],
   "Core Strengths": ["Attention to Detail", "Customer Service", "Communication Skills", "Reliability", "Critical Thinking"],
 };

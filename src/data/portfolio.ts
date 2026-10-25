@@ -3,9 +3,9 @@ export type Page = "home" | "techstack" | "experience";
 export const about = {
   name: "Leslie Yciar D. Gabriel",
   location: "Manila, Philippines",
-  tagline: "Admin, Finance & Virtual Assistant Professional",
+  tagline: "Admin, Finance & Medical Virtual Assistant Professional",
   bio: [
-    "Detail-oriented administrative and finance professional with experience spanning customer-facing cashiering and event operations to remote virtual assistance, billing, and revenue auditing.",
+    "Detail-oriented administrative and finance professional with experience spanning customer-facing cashiering and event operations to remote virtual assistance, medical virtual assistance, billing, and revenue auditing.",
     "Known for strong accuracy, reliability under pressure, and a track record of leading a team to deliver consistent, high-quality results. Open to work-from-home Virtual Assistant and administrative support roles.",
   ],
   education: [
@@ -25,16 +25,10 @@ export const experience = [
     ] },
   { title: "Medical Virtual Assistant", sub: "Confidential Healthcare Client", year: "2023 – Present (3 yrs)", active: true, italic: false,
     bullets: [
-      "Managed patient scheduling and appointment setting for a healthcare practice",
+      "Provided patient support and scheduling for a healthcare practice, maintaining HIPAA-compliant handling of patient data",
       "Processed medical billing and insurance claims, including follow-up on outstanding claims",
-      "Maintained and updated electronic health records (EHR) and patient data with accuracy and confidentiality",
+      "Maintained and updated EHR/EMR patient records with accuracy and confidentiality",
       "Handled patient communication and intake, including calls, emails, and intake forms",
-    ] },
-  { title: "Virtual Assistant", sub: "Freelance — Tara AI Community", year: "Jan 2023 – Present", active: false, italic: false,
-    bullets: [
-      "Provide remote administrative support, including scheduling, data entry, email management, and document preparation",
-      "Manage client communications and ensure timely delivery of assigned tasks",
-      "Maintain organized records and help streamline day-to-day administrative processes",
     ] },
   { title: "Revenue Audit (OJT)", sub: "New Coast Hotel Manila", year: "2025", active: false, italic: false,
     bullets: [
@@ -52,13 +46,13 @@ export const experience = [
 
 export const techStack: Record<string, string[]> = {
   "Leadership & Operations": ["Team Leadership", "Time Management", "Multitasking", "Adaptability"],
-  "Finance & Admin": ["Billing & Invoicing", "Financial Auditing", "Data Entry", "Record-Keeping"],
+  "Finance & Admin": ["Billing & Invoicing", "Financial Auditing", "Data Entry", "Record-Keeping", "HIPAA Compliance", "EHR/EMR Systems"],
   Tools: ["Microsoft Excel", "Microsoft Word"],
 };
 
 export const techStackAll: Record<string, string[]> = {
   "Leadership & Operations": ["Team Leadership", "Time Management", "Multitasking", "Organizational Skills", "Adaptability", "Problem-Solving"],
-  "Finance & Admin": ["Billing & Invoicing", "Financial Auditing", "Administrative Support", "Data Entry", "Record-Keeping", "Email & Calendar Management", "Medical"],
+  "Finance & Admin": ["Billing & Invoicing", "Financial Auditing", "Administrative Support", "Data Entry", "Record-Keeping", "Email & Calendar Management", "HIPAA Compliance", "EHR/EMR Systems"],
   Tools: ["Microsoft Excel", "Microsoft Word"],
   "Core Strengths": ["Attention to Detail", "Customer Service", "Communication Skills", "Reliability", "Critical Thinking"],
 };

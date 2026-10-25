@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --color-page-bg: #f8f7f4;
+}
+
+.page-bg {
+  background-color: var(--color-page-bg);
+}
+
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}

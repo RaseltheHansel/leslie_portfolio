@@ -23,7 +23,7 @@ export const experience = [
       "Conducted audits to verify financial accuracy and resolve discrepancies",
       "Coordinated team workflows and provided day-to-day guidance to maintain consistent output quality",
     ] },
-  { title: "Medical Virtual Assistant", sub: "Confidential Healthcare Client", year: "Jan 2023 – July 2026", active: true, italic: false,
+  { title: "Medical Virtual Assistant", sub: "Confidential Healthcare Client", year: "March 2024 – April 2026", active: true, italic: false,
     bullets: [
       "Provided patient support and scheduling for a healthcare practice, maintaining HIPAA-compliant handling of patient data",
       "Processed medical billing and insurance claims, including follow-up on outstanding claims",
